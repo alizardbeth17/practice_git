@@ -13,6 +13,6 @@ tigerTable
 
 data.frame(Frequency = tigerTable)
 data.frame(Frequency = addmargins(tigerTable))
-pdf("NewTigerPlot")
+pdf("NewTigerPlot.pdf")
 barplot(tigerTable, ylab = "Frequency", cex.names = 0.5, las = 2)
 dev.off()
